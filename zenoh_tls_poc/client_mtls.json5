@@ -1,0 +1,16 @@
+{
+  "mode": "client",
+  "connect": {
+    "endpoints": ["tls/localhost:7447"]
+  },
+  "transport": {
+    "link": {
+      "tls": {
+        "root_ca_certificate": "mtls_certs/server/minica.pem",
+        "enable_mtls": true,
+        "connect_private_key": "mtls_certs/client/localhost/key.pem",
+        "connect_certificate": "mtls_certs/client/localhost/cert.pem"
+      }
+    }
+  }
+}
