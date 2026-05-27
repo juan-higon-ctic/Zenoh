@@ -1,0 +1,9 @@
+# Ignore generated mTLS certificates and keys.
+# These are secrets and should never be committed to the repository.
+# The README.md file contains instructions on how to generate them.
+/mtls_certs/
+
+# Ignore Python virtual environment and cache files
+/venv/
+__pycache__/
+*.pyc
