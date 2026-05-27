@@ -81,3 +81,7 @@ python z_sensor.py
 ### 3. Verify
 
 Observe the output in the subscriber's terminal (Terminal 2). You should see it receiving temperature data from the sensor, confirming that the secure mTLS communication is working correctly.
+
+### 4. QUIC
+
+For using QUIC: Replace the endpoints fields to quic/localhost:7447 (there is and example in the file)
