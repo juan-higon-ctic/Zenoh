@@ -2,6 +2,7 @@
   "mode": "router",
   "listen": {
     "endpoints": ["tls/localhost:7447"]
+    //quic/localhost:7447 for using QUIC
   },
   "transport": {
     "link": {

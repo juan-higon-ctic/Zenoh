@@ -63,11 +63,13 @@ Open three separate terminals in this project's root directory (`C:\Codigos\5-Co
 
 **Terminal 1: Start the Router**
 ```powershell
+# This command runs the Zenoh router executable and tells it to use your JSON5 file for configuration.
 .\zenohd.exe -c router_mtls.json5
 ```
 
 **Terminal 2: Start the Subscriber**
 ```powershell
+# Note: Use 'python' and not 'python3', especially when inside a virtual environment on Windows.
 python z_subscriber.py
 ```
 
